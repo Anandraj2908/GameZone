@@ -1,0 +1,94 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  body {
+    background: white;
+    
+  }
+  nav{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    
+    align-content: center;
+}
+.logo{
+    color: rgb(254, 253, 253);
+    margin-left: 20px;
+    font-size: 40px;
+    
+}
+#back{
+    color: white;
+    margin-right: 30px;
+    padding: 5px;
+}
+  canvas {
+    border: 1px solid white; background-color:black;
+    border-radius: 10px;
+    margin: 10px;
+    
+    
+  }
+  #p1
+  {
+    color:white;
+	
+	left:100px;
+	top:10px;
+  }
+    #p2
+  {
+    color:white;
+	
+	left:100px;
+	top:30px;
+  }
+  #score
+  {
+    color:yellow;
+    
+	left:155px;
+	top:10px;
+  }
+  #high
+  {
+    color:yellow;
+    
+	  left:195px;
+	  top:30px;
+  }
+  #btn_stop
+  {
+    color:brown;
+    
+	  left:100px;
+	  top:80px;
+  }
+  #end_msg
+  {
+    color:brown;
+    
+	  left:100px;
+	  top:100px;
+  }
+  #mainbox{
+     
+     margin-top: 10px;
+     margin-left: 550px;
+     max-width: 430px;
+     border: 5px solid black;
+     border-radius: 10px;
+  }
+  .btn{
+    border: 2px solid red;
+  }
+  .container{
+    background-color: black;
+    margin: 10px;
+    max-width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    
+  }

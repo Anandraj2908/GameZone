@@ -1,0 +1,33 @@
+nav{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    
+    align-content: center;
+}
+.logo{
+    color: rgb(254, 253, 253);
+    margin-left: 20px;
+    font-size: 40px;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 20px;
+    margin: 10vh;
+    margin-top: 250px;
+    font-size: 15vh;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    color: white;
+    
+}
